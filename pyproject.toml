@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nexusapiwrapper"
+version = "0.1.0"
+description = ""
+authors = ["Mick Rasmussen <mick@gps.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dynaconf = "^3.1.11"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+dynaconf = "^3.1.11"
+requests = "^2.28.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
