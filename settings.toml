@@ -1,0 +1,9 @@
+[development]
+name = "dev"
+api_url_token = "https://INSTANCE.nexus-review.kmd.dk/auth_v2/realms/INSTANCE/protocol/openid-connect/token"
+api_url_base = "https://INSTANCE.nexus-review.kmd.dk:443/mobile/INSTANCE/v2/"
+
+[production]
+name = "production"
+api_url_token = "https://INSTANCE.nexus.kmd.dk/auth_v2/realms/INSTANCE/protocol/openid-connect/token"
+api_url_base = "https://INSTANCE.nexus.kmd.dk:443/mobile/INSTANCE/v2/"
